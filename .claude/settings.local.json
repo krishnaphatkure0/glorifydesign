@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(/C:\\Users\\Shashank/**)",
+      "Read(/C:\\Users\\Shashank/**)"
+    ],
+    "deny": [],
+    "ask": [],
+    "additionalDirectories": [
+      "C:\\Users\\Shashank"
+    ]
+  }
+}
