@@ -2,7 +2,8 @@
   "permissions": {
     "allow": [
       "Read(/C:\\Users\\Shashank/**)",
-      "Read(/C:\\Users\\Shashank/**)"
+      "Read(/C:\\Users\\Shashank/**)",
+      "Bash(npm install:*)"
     ],
     "deny": [],
     "ask": [],
