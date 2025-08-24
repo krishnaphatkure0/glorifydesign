@@ -24,10 +24,10 @@ export default function Shop() {
   ];
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-50 w-full">
       {/* Header Section */}
       <div className="bg-white border-b">
-        <div className="container mx-auto px-4 py-6">
+        <div className="max-w-full mx-auto px-6 py-6">
           <div className="flex items-center justify-between mb-4">
             <div>
               <h1 className="text-2xl font-bold text-gray-900">Digital Templates</h1>
@@ -72,7 +72,7 @@ export default function Shop() {
         </div>
       </div>
 
-      <div className="container mx-auto px-4 py-6">
+      <div className="max-w-full mx-auto px-6 py-6">
         <div className="flex gap-6">
           {/* Sidebar Filters */}
           <div className="w-64 flex-shrink-0">

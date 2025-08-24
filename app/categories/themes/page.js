@@ -1,15 +1,15 @@
-export default function FontsCategory() {
+export default function ThemesCategory() {
   return (
-    <div className="max-w-full min-h-screen bg-gray-50">
-      <div className="max-w-full mx-auto px-4 py-8">
+    <div className="w-full min-h-screen bg-gray-50">
+      <div className="w-full mx-auto px-6 py-8">
         {/* Category Header */}
-        <div className="bg-gradient-to-r from-orange-600 to-red-600 text-white rounded-lg p-8 mb-8">
-          <h1 className="text-4xl font-bold mb-4">Fonts</h1>
+        <div className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white rounded-lg p-8 mb-8">
+          <h1 className="text-4xl font-bold mb-4">🎭 Themes</h1>
           <p className="text-lg opacity-90">
-            Premium typography collection featuring modern, classic, and unique font families
+            Complete design systems and theme collections for your projects
           </p>
           <div className="mt-4 text-sm opacity-80">
-            756 font families available
+            432 theme packages available
           </div>
         </div>
 
@@ -18,29 +18,29 @@ export default function FontsCategory() {
           <div className="w-64 bg-white p-6 rounded-lg shadow-sm h-fit">
             <h3 className="text-lg font-semibold mb-4">Refine Results</h3>
             
-            {/* Font Category Filter */}
+            {/* Theme Category Filter */}
             <div className="mb-6">
               <h4 className="font-medium mb-2">Category</h4>
               <div className="space-y-2">
                 <label className="flex items-center">
                   <input type="checkbox" className="mr-2" />
-                  Sans Serif
+                  Website Themes
                 </label>
                 <label className="flex items-center">
                   <input type="checkbox" className="mr-2" />
-                  Serif
+                  Mobile Themes
                 </label>
                 <label className="flex items-center">
                   <input type="checkbox" className="mr-2" />
-                  Script
+                  UI Kits
                 </label>
                 <label className="flex items-center">
                   <input type="checkbox" className="mr-2" />
-                  Display
+                  Color Schemes
                 </label>
                 <label className="flex items-center">
                   <input type="checkbox" className="mr-2" />
-                  Monospace
+                  Icon Sets
                 </label>
               </div>
             </div>
@@ -51,47 +51,47 @@ export default function FontsCategory() {
               <div className="space-y-2">
                 <label className="flex items-center">
                   <input type="checkbox" className="mr-2" />
-                  Modern
+                  Minimalist
                 </label>
                 <label className="flex items-center">
                   <input type="checkbox" className="mr-2" />
-                  Classic
+                  Corporate
                 </label>
                 <label className="flex items-center">
                   <input type="checkbox" className="mr-2" />
-                  Elegant
+                  Creative
                 </label>
                 <label className="flex items-center">
                   <input type="checkbox" className="mr-2" />
-                  Bold
+                  E-commerce
                 </label>
               </div>
             </div>
 
-            {/* Language Support */}
+            {/* Platform Support */}
             <div className="mb-6">
-              <h4 className="font-medium mb-2">Language Support</h4>
+              <h4 className="font-medium mb-2">Platform</h4>
               <div className="space-y-2">
                 <label className="flex items-center">
                   <input type="checkbox" className="mr-2" />
-                  Latin
+                  WordPress
                 </label>
                 <label className="flex items-center">
                   <input type="checkbox" className="mr-2" />
-                  Cyrillic
+                  React
                 </label>
                 <label className="flex items-center">
                   <input type="checkbox" className="mr-2" />
-                  Greek
+                  HTML/CSS
                 </label>
                 <label className="flex items-center">
                   <input type="checkbox" className="mr-2" />
-                  Extended Latin
+                  Figma
                 </label>
               </div>
             </div>
 
-            <button className="w-full bg-orange-600 text-white py-2 rounded hover:bg-orange-700">
+            <button className="w-full bg-indigo-600 text-white py-2 rounded hover:bg-indigo-700">
               Apply Filters
             </button>
           </div>
@@ -100,8 +100,8 @@ export default function FontsCategory() {
           <div className="flex-1">
             <div className="flex justify-between items-center mb-6">
               <div>
-                <h2 className="text-xl font-semibold">Font Collection</h2>
-                <p className="text-gray-600">Professional typography for every project</p>
+                <h2 className="text-xl font-semibold">Theme Collection</h2>
+                <p className="text-gray-600">Complete design systems for your projects</p>
               </div>
               <select className="p-2 border rounded">
                 <option>Most Popular</option>
@@ -114,13 +114,13 @@ export default function FontsCategory() {
             <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
               {Array.from({ length: 12 }).map((_, i) => (
                 <div key={i} className="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow">
-                  <div className="aspect-[3/2] bg-gradient-to-br from-orange-100 to-red-100 relative flex items-center justify-center">
+                  <div className="aspect-[3/2] bg-gradient-to-br from-indigo-100 to-purple-100 relative flex items-center justify-center">
                     <div className="text-center">
-                      <div className="text-3xl font-bold text-gray-700 mb-2">Aa</div>
-                      <div className="text-lg text-gray-600">Font Preview</div>
+                      <div className="text-3xl mb-2">🎨</div>
+                      <div className="text-lg text-gray-600">Theme Preview</div>
                     </div>
-                    <div className="absolute top-2 left-2 bg-orange-500 text-white px-2 py-1 rounded text-xs">
-                      Font
+                    <div className="absolute top-2 left-2 bg-indigo-500 text-white px-2 py-1 rounded text-xs">
+                      Theme
                     </div>
                     <div className="absolute top-2 right-2">
                       <button className="p-1 bg-white rounded-full shadow-sm">
@@ -131,13 +131,13 @@ export default function FontsCategory() {
                     </div>
                   </div>
                   <div className="p-4">
-                    <h3 className="font-medium mb-2">Modern Font Family {i + 1}</h3>
-                    <p className="text-sm text-gray-600 mb-2">by Typography Studio</p>
+                    <h3 className="font-medium mb-2">Modern Theme Pack {i + 1}</h3>
+                    <p className="text-sm text-gray-600 mb-2">by Design Studio</p>
                     <div className="text-xs text-gray-500 mb-3">
-                      12 weights • Sans Serif • Latin Extended
+                      UI Kit • Components • Icons • Colors
                     </div>
                     <div className="flex justify-between items-center">
-                      <span className="font-bold text-orange-600">${(Math.random() * 25 + 20).toFixed(2)}</span>
+                      <span className="font-bold text-indigo-600">${(Math.random() * 50 + 35).toFixed(2)}</span>
                       <div className="flex items-center">
                         <div className="flex text-yellow-400 text-xs">★★★★★</div>
                         <span className="text-xs text-gray-500 ml-1">(67)</span>
